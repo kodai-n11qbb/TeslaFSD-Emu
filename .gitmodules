@@ -1,0 +1,3 @@
+[submodule "cam2webrtc"]
+	path = cam2webrtc
+	url = https://github.com/kodai-n11qbb/cam2webrtc.git
