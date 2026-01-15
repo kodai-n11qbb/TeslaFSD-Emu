@@ -1,9 +1,4 @@
-# TeslaFSD-Emu
-system図
-``` mermaid
 flowchart TD
     A[カメラ入力<br/>Camera Inputs] --> B[物体認識NN<br/>Neural Net Perception]
     B --> C[経路計画<br/>Path Planning: A*/MPC]
     C --> D[車両制御<br/>Vehicle Control: 制御信号 control signals]
-
-```
