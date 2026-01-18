@@ -1,9 +1,8 @@
 # TeslaFSD-Emu
-system図
-``` mermaid
-flowchart TD
-    A[カメラ入力<br/>Camera Inputs] --> B[物体認識NN<br/>Neural Net Perception]
-    B --> C[経路計画<br/>Path Planning: A*/MPC]
-    C --> D[車両制御<br/>Vehicle Control: 制御信号 control signals]
+- system図
+![system](./mmds/system.png)
 
-```
+## 本リポジトリ設計思想
+- リポジトリ関係が簡素であること
+- 軽量であること
+- 構造が明確であること

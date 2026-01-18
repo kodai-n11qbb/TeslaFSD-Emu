@@ -1,4 +1,21 @@
 flowchart TD
-    A[カメラ入力<br/>Camera Inputs] --> B[物体認識NN<br/>Neural Net Perception]
-    B --> C[経路計画<br/>Path Planning: A*/MPC]
-    C --> D[車両制御<br/>Vehicle Control: 制御信号 control signals]
+    subgraph カメラ入力 [Camera Input]
+        A[前方カメラ<br/>Front Camera]
+    end
+    
+    subgraph 推論 [Inference]
+        B[カメラ入力から意思決定<br/>Camera Input → Decision Making]
+    end
+    
+    subgraph 車両制御 [Vehicle Control]
+        C[ステアリング制御<br/>Steering Control: 左右転舵<br/>Left/Right Steering]
+    end
+    
+    A --> B
+    B --> C
+
+%% リポジトリ使用状況メモ
+%% Camera Input     : cam2webrtc
+%% Inference        : 
+%% Vehicle Control  : 
+%% other            : 
