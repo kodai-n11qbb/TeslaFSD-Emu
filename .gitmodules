@@ -1,3 +1,6 @@
 [submodule "cam2webrtc"]
 	path = cam2webrtc
 	url = https://github.com/kodai-n11qbb/cam2webrtc.git
+[submodule "ws2infer"]
+	path = ws2infer
+	url = https://github.com/kodai-n11qbb/ws2infer.git
