@@ -4,3 +4,6 @@
 [submodule "ws2infer"]
 	path = ws2infer
 	url = https://github.com/kodai-n11qbb/ws2infer.git
+[submodule "ws2infer-js"]
+	path = ws2infer-js
+	url = https://github.com/kodai-n11qbb/ws2infer-js.git
